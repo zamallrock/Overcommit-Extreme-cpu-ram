@@ -1,10 +1,10 @@
 # Overcommit-Extreme-cpu-ram
 
-`Izinkan Overcommit Memory`
+`Allow Memory Overcommit`
 ```
 cat /proc/sys/vm/overcommit_memory
 ```
-`Jika 0 tambahkan hasil = 1`
+`If 0 add result = 1`
 ```
 echo 1 > /proc/sys/vm/overcommit_memory
 ```
