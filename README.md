@@ -20,10 +20,10 @@ echo 150 > /proc/sys/vm/overcommit_ratio
 ```
 `Overswap Extreme Memory`
 ```
-fallocate -l 32G /swapfile2
-chmod 600 /swapfile2
-mkswap /swapfile2
-swapon /swapfile2
+fallocate -l 32G /swapfile
+chmod 600 /swapfile
+mkswap /swapfile
+swapon /swapfile
 ```
 `Overcommit CPU, RAM, dan Swap test`
 ```
